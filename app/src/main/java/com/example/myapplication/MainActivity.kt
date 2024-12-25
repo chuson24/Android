@@ -64,7 +64,7 @@ fun GreetingText(name: String, from: String, modifier: Modifier = Modifier) {
         )
 
 
-        Spacer(modifier = Modifier.height(16.dp)) // Khoảng cách giữa ảnh và Text
+        Spacer(modifier = Modifier.height(16.dp))
 
         // Hiển thị tên và thông tin
         Text(
